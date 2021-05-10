@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-Practice15-多層次收合選單</title>
+    <link rel="stylesheet" href="style15.css">
+</head>
+
+<body>
+
+    <!-- Layout-Practice14 -->
+    <input type="checkbox" id="side-menu-switch">
+
+    <div class="side-menu">
+
+
+
+        <form>
+            <!-- placeholder為提示訊息 -->
+            <!-- 提示訊息的字體、顏色、大小...可由CSS的偽元素來撰寫 -->
+            <input type="search" placeholder="請輸入關鍵字">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+
+        <!-- Layout-Practice15 -->
+        <!-- 第一層選單 -->
+        <ul class="level-1">
+            <li>
+                <a href="">
+                    <i class="fa fa-ravelry" aria-hidden="true"></i>
+                    區別出去</a>
+                <!--  第一層選單 的 第二層選單  -->
+                <ul class="level-2">
+                    <li>
+                        <a href="">直到就不出</a>
+                        <!--  第一層選單 的 第二層選單 的 第三層選單  -->
+                        <ul class="level-3">
+                            <li><a href="">Day 1</a></li>
+                            <li><a href="">Day 2</a></li>
+                            <li><a href="">Day 3</a></li>
+                            <li><a href="">Day 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">告訴我戀</a>
+                        <ul class="level-3">
+                            <li><a href="">Day 1</a></li>
+                            <li><a href="">Day 2</a></li>
+                            <li><a href="">Day 3</a></li>
+                            <li><a href="">Day 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">例如天天三</a>
+                        <ul class="level-3">
+                            <li><a href="">Day 1</a></li>
+                            <li><a href="">Day 2</a></li>
+                            <li><a href="">Day 3</a></li>
+                            <li><a href="">Day 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">呼吸主動網</a>
+                        <ul class="level-3">
+                            <li><a href="">Day 1</a></li>
+                            <li><a href="">Day 2</a></li>
+                            <li><a href="">Day 3</a></li>
+                            <li><a href="">Day 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">私服男生嘿</a>
+                        <ul class="level-3">
+                            <li><a href="">Day 1</a></li>
+                            <li><a href="">Day 2</a></li>
+                            <li><a href="">Day 3</a></li>
+                            <li><a href="">Day 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                    頁面一眼奇蹟一</a>
+                <ul class="level-2">
+                    <li>
+                        <a href="">管理有了發</a>
+                        <ul class="level-3">
+                            <li><a href="">Version 1</a></li>
+                            <li><a href="">Version 2</a></li>
+                            <li><a href="">Version 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">促進紡織根</a>
+                        <ul class="level-3">
+                            <li><a href="">Version 1</a></li>
+                            <li><a href="">Version 2</a></li>
+                            <li><a href="">Version 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">研究生施</a>
+                        <ul class="level-3">
+                            <li><a href="">Version 1</a></li>
+                            <li><a href="">Version 2</a></li>
+                            <li><a href="">Version 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-eercast" aria-hidden="true"></i>
+                    變成指南同</a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-superpowers" aria-hidden="true"></i>
+                    風立場感</a>
+            </li>
+
+        </ul>
+
+        <!-- Layout-Practice14 -->
+        <label for="side-menu-switch">
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        </label>
+
+    </div>
+
+</body>
+
+</html>
